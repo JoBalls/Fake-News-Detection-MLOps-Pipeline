@@ -2,5 +2,8 @@ venv/
 __pycache__/
 *.pyc
 data/raw/
-data/processed/
-models/*.pkl
+data/processed/*
+!data/processed/tfidf_vectorizer.pkl
+models/*
+!models/model.pkl
+!models/metrics.json
